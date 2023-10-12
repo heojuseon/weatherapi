@@ -22,12 +22,10 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
     TextView max_tmp, min_tmp, tmp, t_time;
-    String base_data = "20231010";
+    String base_date = "20231010";
     String base_time = "0500";
     String nx = "58";
     String ny = "125";
-
-//    List<Item> it = new ArrayList<>();
 
 
     @Override
